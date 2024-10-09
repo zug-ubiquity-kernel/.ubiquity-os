@@ -1,4 +1,16 @@
 plugins:
+  'issue_comment.created':
+    - name: "hello-world-plugin name"
+      description: "hello-world-plugin description"
+      command: "/hello"
+      example: "/hello example"
+      skipBotEvents: true
+      uses:
+      # hello-world-plugin
+      - plugin: http://127.0.0.1:8787
+        type: github
+        with:
+          response: world
   '*':
     - uses:
       - plugin: ubiquibot/user-activity-watcher
