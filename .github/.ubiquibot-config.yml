@@ -1,5 +1,5 @@
 plugins:
-  'issue_comment.created':
+  'issue_comment':
     - uses:
       - plugin: http://127.0.0.1:8787
         type: github
