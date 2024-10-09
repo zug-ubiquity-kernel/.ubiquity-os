@@ -7,7 +7,7 @@ plugins:
           unassignUserThreshold: 7
           sendRemindersThreshold: 3.5
     - uses:
-      - plugin: zug-ubiquity-kernel/conversation-rewards
+      - plugin: http://127.0.0.1:8787
         type: github
         with:
           evmNetworkId: 100
