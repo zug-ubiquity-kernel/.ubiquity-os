@@ -17,3 +17,7 @@ plugins:
             - MEMBER
             - ADMIN
           requiredLabelsToStart: []
+  - uses:
+      - plugin: https://command-query-user-development.ubiquity.workers.dev
+        with:
+          allowPublicQuery: true
