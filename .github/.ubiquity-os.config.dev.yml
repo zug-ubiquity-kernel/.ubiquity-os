@@ -1,5 +1,3 @@
 plugins:
   - uses:
     - plugin: http://localhost:4000
-      with:
-        configurableResponse: "sup?"
